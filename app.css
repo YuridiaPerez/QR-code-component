@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body{
+    background-color: #D5E1EF;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 270px;
+    height: 460px;
+    margin: 5px;
+    padding: 10px;
+    margin-left: 550px;
+    margin-top: 100px;
+}
+
+.card-img img{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 260px;
+    height: 260px;
+    border-radius: 15px;
+    margin-left: 7px;
+    margin-top: 10px;
+}
+
+h2{
+    display: flex;
+    font-weight: 700;
+    text-align: center;
+    color: #001537;
+}
+
+p{
+    font-weight: 400;
+    color: #84848C;
+    text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        border-radius: 20px;
+        width: 270px;
+        height: 460px;
+        margin: 5px;
+        padding: 10px;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    
+    .card{
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        border-radius: 20px;
+        width: 270px;
+        height: 460px;
+        margin: 5px;
+        padding: 10px;
+        margin-left: 30px;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    
+    .card{
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        border-radius: 20px;
+        width: 270px;
+        height: 460px;
+        margin: 5px;
+        padding: 10px;
+        margin-left: 60px;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .card{
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        border-radius: 20px;
+        width: 270px;
+        height: 460px;
+        margin: 5px;
+        padding: 10px;
+        margin-left: 230px;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .card{
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        border-radius: 20px;
+        width: 270px;
+        height: 460px;
+        margin: 5px;
+        padding: 10px;
+        margin-left: 370px;
+        margin-top: 100px;
+    }
+}
